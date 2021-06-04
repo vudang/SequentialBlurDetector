@@ -1,0 +1,11 @@
+framework module BlurDetector {
+  umbrella header "BlurDetector.h"
+
+  export *
+  module * { export * }
+}
+
+module BlurDetector.Swift {
+    header "BlurDetector-Swift.h"
+    requires objc
+}

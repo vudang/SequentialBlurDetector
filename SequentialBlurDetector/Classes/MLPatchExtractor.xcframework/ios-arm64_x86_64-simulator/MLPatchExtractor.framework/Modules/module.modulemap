@@ -1,0 +1,11 @@
+framework module MLPatchExtractor {
+  umbrella header "MLPatchExtractor.h"
+
+  export *
+  module * { export * }
+}
+
+module MLPatchExtractor.Swift {
+    header "MLPatchExtractor-Swift.h"
+    requires objc
+}

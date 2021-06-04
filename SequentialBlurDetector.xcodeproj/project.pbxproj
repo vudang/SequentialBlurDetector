@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA2876A266A202D0012DE01 /* SequentialBlurDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA28760266A202D0012DE01 /* SequentialBlurDetector.framework */; };
+		EAA2876F266A202D0012DE01 /* SequentialBlurDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2876E266A202D0012DE01 /* SequentialBlurDetectorTests.swift */; };
+		EAA28771266A202D0012DE01 /* SequentialBlurDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA28763266A202D0012DE01 /* SequentialBlurDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA28784266A205F0012DE01 /* SequentialBlurDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA28781266A205F0012DE01 /* SequentialBlurDetector.swift */; };
+		EAA28786266A205F0012DE01 /* ImageBlurrinessMeasures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA28783266A205F0012DE01 /* ImageBlurrinessMeasures.swift */; };
+		EAA28806266A25AB0012DE01 /* MLPatchExtractor.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA28805266A25AB0012DE01 /* MLPatchExtractor.xcframework */; };
+		EAA2880A266A25BE0012DE01 /* BlurDetector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA28809266A25BE0012DE01 /* BlurDetector.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA2876B266A202D0012DE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA28757266A202D0012DE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA2875F266A202D0012DE01;
+			remoteInfo = SequentialBlurDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAA28760266A202D0012DE01 /* SequentialBlurDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SequentialBlurDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA28763266A202D0012DE01 /* SequentialBlurDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SequentialBlurDetector.h; sourceTree = "<group>"; };
+		EAA28764266A202D0012DE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA28769266A202D0012DE01 /* SequentialBlurDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequentialBlurDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA2876E266A202D0012DE01 /* SequentialBlurDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialBlurDetectorTests.swift; sourceTree = "<group>"; };
+		EAA28770266A202D0012DE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA28781266A205F0012DE01 /* SequentialBlurDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequentialBlurDetector.swift; sourceTree = "<group>"; };
+		EAA28783266A205F0012DE01 /* ImageBlurrinessMeasures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBlurrinessMeasures.swift; sourceTree = "<group>"; };
+		EAA28805266A25AB0012DE01 /* MLPatchExtractor.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MLPatchExtractor.xcframework; sourceTree = "<group>"; };
+		EAA28809266A25BE0012DE01 /* BlurDetector.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BlurDetector.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA2875D266A202D0012DE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA2880A266A25BE0012DE01 /* BlurDetector.xcframework in Frameworks */,
+				EAA28806266A25AB0012DE01 /* MLPatchExtractor.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA28766266A202D0012DE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA2876A266A202D0012DE01 /* SequentialBlurDetector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA28756266A202D0012DE01 = {
+			isa = PBXGroup;
+			children = (
+				EAA28762266A202D0012DE01 /* SequentialBlurDetector */,
+				EAA2876D266A202D0012DE01 /* SequentialBlurDetectorTests */,
+				EAA28761266A202D0012DE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA28761266A202D0012DE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA28760266A202D0012DE01 /* SequentialBlurDetector.framework */,
+				EAA28769266A202D0012DE01 /* SequentialBlurDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA28762266A202D0012DE01 /* SequentialBlurDetector */ = {
+			isa = PBXGroup;
+			children = (
+				EAA28780266A205F0012DE01 /* Classes */,
+				EAA28763266A202D0012DE01 /* SequentialBlurDetector.h */,
+				EAA28764266A202D0012DE01 /* Info.plist */,
+			);
+			path = SequentialBlurDetector;
+			sourceTree = "<group>";
+		};
+		EAA2876D266A202D0012DE01 /* SequentialBlurDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2876E266A202D0012DE01 /* SequentialBlurDetectorTests.swift */,
+				EAA28770266A202D0012DE01 /* Info.plist */,
+			);
+			path = SequentialBlurDetectorTests;
+			sourceTree = "<group>";
+		};
+		EAA28780266A205F0012DE01 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAA28809266A25BE0012DE01 /* BlurDetector.xcframework */,
+				EAA28805266A25AB0012DE01 /* MLPatchExtractor.xcframework */,
+				EAA28781266A205F0012DE01 /* SequentialBlurDetector.swift */,
+				EAA28783266A205F0012DE01 /* ImageBlurrinessMeasures.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAA2875B266A202D0012DE01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA28771266A202D0012DE01 /* SequentialBlurDetector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EAA2875F266A202D0012DE01 /* SequentialBlurDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA28774266A202D0012DE01 /* Build configuration list for PBXNativeTarget "SequentialBlurDetector" */;
+			buildPhases = (
+				EAA2875B266A202D0012DE01 /* Headers */,
+				EAA2875C266A202D0012DE01 /* Sources */,
+				EAA2875D266A202D0012DE01 /* Frameworks */,
+				EAA2875E266A202D0012DE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SequentialBlurDetector;
+			productName = SequentialBlurDetector;
+			productReference = EAA28760266A202D0012DE01 /* SequentialBlurDetector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAA28768266A202D0012DE01 /* SequentialBlurDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA28777266A202D0012DE01 /* Build configuration list for PBXNativeTarget "SequentialBlurDetectorTests" */;
+			buildPhases = (
+				EAA28765266A202D0012DE01 /* Sources */,
+				EAA28766266A202D0012DE01 /* Frameworks */,
+				EAA28767266A202D0012DE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA2876C266A202D0012DE01 /* PBXTargetDependency */,
+			);
+			name = SequentialBlurDetectorTests;
+			productName = SequentialBlurDetectorTests;
+			productReference = EAA28769266A202D0012DE01 /* SequentialBlurDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA28757266A202D0012DE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EAA2875F266A202D0012DE01 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					EAA28768266A202D0012DE01 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = EAA2875A266A202D0012DE01 /* Build configuration list for PBXProject "SequentialBlurDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA28756266A202D0012DE01;
+			productRefGroup = EAA28761266A202D0012DE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA2875F266A202D0012DE01 /* SequentialBlurDetector */,
+				EAA28768266A202D0012DE01 /* SequentialBlurDetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA2875E266A202D0012DE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA28767266A202D0012DE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA2875C266A202D0012DE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA28784266A205F0012DE01 /* SequentialBlurDetector.swift in Sources */,
+				EAA28786266A205F0012DE01 /* ImageBlurrinessMeasures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA28765266A202D0012DE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA2876F266A202D0012DE01 /* SequentialBlurDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA2876C266A202D0012DE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA2875F266A202D0012DE01 /* SequentialBlurDetector */;
+			targetProxy = EAA2876B266A202D0012DE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAA28772266A202D0012DE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAA28773266A202D0012DE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAA28775266A202D0012DE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SequentialBlurDetector/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.SequentialBlurDetector;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA28776266A202D0012DE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SequentialBlurDetector/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.SequentialBlurDetector;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA28778266A202D0012DE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				INFOPLIST_FILE = SequentialBlurDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.SequentialBlurDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA28779266A202D0012DE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				INFOPLIST_FILE = SequentialBlurDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.SequentialBlurDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA2875A266A202D0012DE01 /* Build configuration list for PBXProject "SequentialBlurDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA28772266A202D0012DE01 /* Debug */,
+				EAA28773266A202D0012DE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA28774266A202D0012DE01 /* Build configuration list for PBXNativeTarget "SequentialBlurDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA28775266A202D0012DE01 /* Debug */,
+				EAA28776266A202D0012DE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA28777266A202D0012DE01 /* Build configuration list for PBXNativeTarget "SequentialBlurDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA28778266A202D0012DE01 /* Debug */,
+				EAA28779266A202D0012DE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA28757266A202D0012DE01 /* Project object */;
+}

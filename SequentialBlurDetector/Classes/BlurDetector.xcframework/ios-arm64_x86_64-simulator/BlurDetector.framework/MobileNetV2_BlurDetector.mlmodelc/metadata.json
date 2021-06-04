@@ -1,0 +1,77 @@
+[
+  {
+    "shortDescription" : "The model for estimation of image blurriness via classification. The top accuracy is 93.2%.",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "Identity",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "classLabel",
+        "shortDescription" : "Most likely image category"
+      }
+    ],
+    "version" : "TF2: y20-09-18|15-19-20|v25|e-Adam-0.01-0.98-25",
+    "modelParameters" : [
+
+    ],
+    "author" : "Fine-tuned on Veracity Protocol Blur Dataset and converted to CoreML by Petr Bobak",
+    "specificationVersion" : 1,
+    "license" : "Please see https:\/\/github.com\/tensorflow\/tensorflow for license information, and https:\/\/github.com\/tensorflow\/models\/tree\/master\/research\/slim\/nets\/mobilenet for the original source of the model.",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetworkClassifier"
+    },
+    "inputSchema" : [
+      {
+        "height" : "224",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "224",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 224 × 224)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "Input image to be classified",
+        "name" : "input_1"
+      }
+    ],
+    "classLabels" : [
+      "blurred",
+      "focused"
+    ],
+    "generatedClassName" : "MobileNetV2_BlurDetector",
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "4.0",
+      "com.github.apple.coremltools.source" : "keras==2.3.1"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "ActivationLinear" : 70,
+      "ActivationReLU" : 35,
+      "Softmax" : 1,
+      "Add" : 10,
+      "PoolingAverage" : 1,
+      "UnaryThreshold" : 35,
+      "BatchNorm" : 52,
+      "Convolution" : 52,
+      "InnerProduct" : 1,
+      "PaddingConstant" : 5
+    },
+    "method" : "predict"
+  }
+]
